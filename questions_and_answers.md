@@ -20,7 +20,12 @@ console.log(greetign);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The coorect ans is b:ReferenceError: greetign is not defined. this Typo in greetign causes ReferenceError. Correct is greeting for {}.
+
+
+
+
+ </i>
 
 </p>
 </details>
