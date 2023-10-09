@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: ? {}
 
-<i>Write your explanation here</i>
+<i>This result is empty object, because this vairable assigned empty object.</i>
 
 </p>
 </details>
