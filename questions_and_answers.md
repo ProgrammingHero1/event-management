@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
-
-<i>Write your explanation here</i>
+#### Answer: - B: `ReferenceError: greetign is not defined`
+<i>Explanation: 
+There's a type. greeting is declared, but greetign (misspelled) is used, causing a ReferenceError.</i>
 
 </p>
 </details>
@@ -43,9 +43,10 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: - C: `"12"`
 
-<i>Write your explanation here</i>
+<i>Explanation:
+ In JavaScript, adding a number to a string results in string concatenation, so 1 + "2" becomes "12".</i>
 
 </p>
 </details>
@@ -69,9 +70,10 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A: `['🍕', '🍫', '🥑', '🍔']` .
 
-<i>Write your explanation here</i>
+<i>Explanation:
+Changing info.favoriteFood doesn't alter the original food array; it only updates the property in the info object.</i>
 
 </p>
 </details>
@@ -94,9 +96,11 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: - B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+<i>Explanation:
+When the function sayHi is called without any argument, the parameter name gets the value undefined. Thus, the output of the function will be "Hi there, undefined".
+</i>
 
 </p>
 </details>
@@ -122,9 +126,11 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: - C: 3
 
-<i>Write your explanation here</i>
+<i>Explanation:
+0 is falsy in JavaScript. The other numbers (1, 2, 3) increment the count, resulting in a total of 3.
+</i>
 
 </p>
 </details>
