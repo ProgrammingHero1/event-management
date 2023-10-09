@@ -18,10 +18,10 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
 <i>Write your explanation here</i>
-
+  the variable greetign is not defined, which leads to a ReferenceError.
 </p>
 </details>
 
@@ -43,10 +43,10 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
 <i>Write your explanation here</i>
-
+JavaScript performs type coercion and converts the number 1 to a string to match the type of b. Then, it performs string concatenation, resulting in the string "12"
 </p>
 </details>
 
@@ -69,10 +69,10 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
 <i>Write your explanation here</i>
-
+ When a new value is assigned to info.favoriteFood, it changes the value of info.favoriteFood to the string, but it does not modify the reference to the first element of the food array. Therefore, food still contains the original array.
 </p>
 </details>
 
@@ -94,10 +94,10 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
 <i>Write your explanation here</i>
-
+In the provided code, the sayHi function expects a parameter name to be passed when it's called. However, upon calling sayHi() without any arguments, the name is undefined inside the function. Therefore, the function returns "Hi there, undefined" as the result.
 </p>
 </details>
 
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: 3
 
 <i>Write your explanation here</i>
-
+In JavaScript, 0 is considered a false value, and all other integers are true. So, for each true value (1, 2, and 3) in the array, the count is incremented by 1. As a result, the count becomes 3.
 </p>
 </details>
