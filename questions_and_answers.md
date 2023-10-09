@@ -5,11 +5,11 @@
 
 ###### 1. Write the `correct answer` from the following options and give an explanation (2-5 lines).
 
-```javascript
+javascript
 let greeting;
 greetign = {};
 console.log(greetign);
-```
+
 
 - A: `{}`
 - B: `ReferenceError: greetign is not defined`
@@ -18,22 +18,22 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A: `{}`
 
-<i>Write your explanation here</i>
+<i>the "greetign" variable contains a object which is empty . so the output will be a empty object ({}). simple...</i>
 
 </p>
 </details>
 
 ###### 2. Write the `correct answer` from the following options and give an explanation (2-5 lines).
 
-```javascript
+javascript
 function sum(a, b) {
   return a + b;
 }
 
 sum(1, "2");
-```
+
 
 - A: `NaN`
 - B: `TypeError`
@@ -43,23 +43,23 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: `"12"`
 
-<i>Write your explanation here</i>
+<i>a is a number and b is a string .when we are trying to addition between them the string will sit besides the number. and the result will be a string. </i>
 
 </p>
 </details>
 
 ###### 3. Write the `correct answer` from the following options and give an explanation (2-5 lines).
 
-```javascript
+javascript
 const food = ["🍕", "🍫", "🥑", "🍔"];
 const info = { favoriteFood: food[0] };
 
 info.favoriteFood = "🍝";
 
 console.log(food);
-```
+
 
 - A: `['🍕', '🍫', '🥑', '🍔']`
 - B: `['🍝', '🍫', '🥑', '🍔']`
@@ -69,22 +69,22 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A: `['🍕', '🍫', '🥑', '🍔']`
 
-<i>Write your explanation here</i>
+<i>Here , we have a object called "info" has a property named "favoriteFood" which value is "food" array's first element. when we change the value of "favoriteFood" property, the values of "food" array won't be changed. it will remain the same</i>
 
 </p>
 </details>
 
 ###### 4. Write the `correct answer` from the following options and give an explanation (2-5 lines).
 
-```javascript
+javascript
 function sayHi(name) {
   return `Hi there, ${name}`;
 }
 
 console.log(sayHi());
-```
+
 
 - A: `Hi there,`
 - B: `Hi there, undefined`
@@ -94,16 +94,16 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+<i>we have a function which has a parameter. but we called the function empty. so the parameter value will be undefined.</i>
 
 </p>
 </details>
 
 ###### 5. Write the `correct answer` from the following options and give an explanation (2-5 lines).
 
-```javascript
+javascript
 let count = 0;
 const nums = [0, 1, 2, 3];
 
@@ -112,7 +112,7 @@ nums.forEach((num) => {
 });
 
 console.log(count);
-```
+
 
 - A: 1
 - B: 2
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C: 3
 
-<i>Write your explanation here</i>
+<i>the "num" array has 4 element.one of them is 0 which is a falsy value. the loop will execute 4 times. but the condition will execute 3 times because of falsy value. so the output will be 3</i>
 
 </p>
 </details>
