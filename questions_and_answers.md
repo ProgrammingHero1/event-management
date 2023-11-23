@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>Here greetings and greetign are not the same variable. greeting is initialized with let but greetign is not.</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>Here argument 1 is number and argument 2 is string. adding anything with string becomes string which is called string concetanation.</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>Here favorite food is changed and stored in info which does not change anything in food variable. that's why no changes will occur</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: D
 
-<i>Write your explanation here</i>
+<i>Here, sayHi is called inside console.log without a parameter but sayHi has a name parameter. That's why it will result in a reference error.</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>Here, for each element in the array the num is checked if it is truthy then count increases by one. but 0 is a falsy value so that's why although there is 4 elements the count will be 3.</i>
 
 </p>
 </details>
