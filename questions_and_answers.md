@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: {}
 
-<i>Write your explanation here</i>
+  <i>In this case, since greetign is not declared with let, var, or const, it becomes a global variable by default. When you run this code, it will output {}.</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: (C):"12"
 
-<i>Write your explanation here</i>
+<i> when you call the sum function with arguments (1, "2"), JavaScript will perform string concatenation instead of numerical addition because one of the operands ("2") is a string.</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A: `['🍕', '🍫', '🥑', '🍔']`
 
-<i>Write your explanation here</i>
+<i>Answer is A because info take value foood and that's change by others value.</i>
 
 </p>
 </details>
@@ -94,9 +94,10 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+<i>
+In the sayHi function, there is a parameter name that is used to create a greeting string. However, when you call sayHi() without passing an argument.</i>
 
 </p>
 </details>
@@ -122,9 +123,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer:  C: 3
 
-<i>Write your explanation here</i>
+<i>In this case, the only truthy values in the array are 1, 2, and 3. So, the count variable will be incremented three times. </i>
 
 </p>
 </details>
