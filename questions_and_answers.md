@@ -15,12 +15,12 @@ console.log(greetign);
 - B: `ReferenceError: greetign is not defined`
 - C: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>A</b></summary>
 <p>
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>Even if the variable greetign has no let, const or var before it, Javascript will make a global instance of this as a variable. So it will work like a global variable</i>
 
 </p>
 </details>
@@ -40,12 +40,12 @@ sum(1, "2");
 - C: `"12"`
 - D: `3`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>C</b></summary>
 <p>
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i> The string "2" will be concatenated with the number 1, resulting in the string "12"</i>
 
 </p>
 </details>
@@ -66,12 +66,12 @@ console.log(food);
 - C: `['🍝', '🍕', '🍫', '🥑', '🍔']`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>A</b></summary>
 <p>
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The info.favoriteFood will be set to a new value "f", but it won't directly affect the food array. The info.favoriteFood is a separate variable pointing to the same value as food[0], but changing its value doesn't modify the original array. </i>
 
 </p>
 </details>
@@ -91,12 +91,12 @@ console.log(sayHi());
 - C: `Hi there, null`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>B</b></summary>
 <p>
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The sayHi function expects an argument name, and at is doesn't get a value for the name, it returns Hi there, undefined.</i>
 
 </p>
 </details>
@@ -119,12 +119,12 @@ console.log(count);
 - C: 3
 - D: 4
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>C</b></summary>
 <p>
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The first element of the array "nums" is 0 which returns a false value while looping and skips the addition. </i>
 
 </p>
 </details>
